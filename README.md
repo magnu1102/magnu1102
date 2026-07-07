@@ -1,11 +1,22 @@
 # Magnus Bjørge Almås
 
 MSc Digitalisation Management | BSc Computer Science  
-Software development, AI systems, data workflows, infrastructure, Android, and responsible digitalisation.
+Software development, applied AI, evaluation tooling, data workflows, infrastructure, Android, and responsible digitalisation.
 
-I build practical portfolio projects around systems that need to be understandable, testable, and useful in real workflows. My current focus is applied AI and digitalisation in public-sector and knowledge-intensive settings, especially where traceability, human review, governance, and clear data flow matter.
+I build practical software projects where traceability, human review, repeatable setup, and operational evidence matter. My current focus is applied AI and digitalisation in public-sector and knowledge-intensive settings: source-grounded systems, evaluation workflows, clear data flow, and tools that are understandable enough to inspect and improve.
 
 ## Featured public projects
+
+### [OpenReady](https://github.com/magnu1102/OpenReady)
+
+A local-first desktop app, CLI, and GitHub Action for checking whether repositories are ready to share as portfolio projects.
+
+- Analyzes public repositories for documentation, setup instructions, screenshots, licensing, CI, and project clarity
+- Includes a Tauri desktop app, command-line workflow, JSON output, badge generation, and a composite GitHub Action
+- Provides scoring, classification, portfolio-oriented feedback, and privacy-conscious local analysis
+- Includes screenshots, architecture docs, CLI docs, GitHub Action examples, schemas, release notes, security policy, and CI
+
+**Shows:** TypeScript, React, Tauri, Rust, CLI design, GitHub Actions, repository analysis, product thinking, documentation systems, release workflow.
 
 ### [OT Lab-in-a-Box](https://github.com/magnu1102/OT-Lab-in-a-box)
 
@@ -60,7 +71,7 @@ Python, Java, Kotlin, TypeScript, React, SQL, PostgreSQL, FastAPI, Docker, Linux
 
 ## Current focus
 
-- Building portfolio projects that connect software engineering with responsible digitalisation
+- Building software that connects engineering practice with responsible digitalisation
 - Improving applied AI workflows through source grounding, evaluation, and human review
-- Strengthening visible project evidence through READMEs, diagrams, screenshots, demos, and repeatable setup
-- Preparing project narratives for job applications, interviews, and a personal portfolio site
+- Making project quality visible through READMEs, diagrams, screenshots, releases, CI, and repeatable setup
+- Working across product, data, infrastructure, and governance concerns rather than treating them as separate problems
